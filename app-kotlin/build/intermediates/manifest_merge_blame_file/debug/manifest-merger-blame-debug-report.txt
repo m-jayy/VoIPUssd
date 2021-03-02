@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.romellfudi.ussd"
+4    android:versionCode="10"
+5    android:versionName="1.10.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:4:5-69
+11-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:4:22-66
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:5:5-78
+12-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:5:22-75
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:6:5-75
+13-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:6:22-72
+14    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+14-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:7:5-91
+14-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:7:22-88
+15
+16    <application
+16-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:9:5-46:19
+17        android:name="com.romellfudi.ussd.App"
+17-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:10:9-28
+18        android:allowBackup="true"
+18-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.0] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\46acecc5af6ce9ff64953c60c9272114\core-1.0.0\AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:13:9-54
+24        android:supportsRtl="true"
+24-->[com.romellfudi.permission:fudi-permission:2.0.a] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\4644772407840535876cff0d3538748f\fudi-permission-2.0.a\AndroidManifest.xml:14:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:15:9-40
+27        <service
+27-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:17:9-26:19
+28            android:name="com.romellfudi.ussdlibrary.USSDServiceKT"
+28-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:18:13-68
+29            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+29-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:19:13-79
+30            <intent-filter>
+30-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:20:13-22:29
+31                <action android:name="android.accessibilityservice.AccessibilityService" />
+31-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:21:17-92
+31-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:21:25-89
+32            </intent-filter>
+33
+34            <meta-data
+34-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:23:13-25:56
+35                android:name="android.accessibilityservice"
+35-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:24:17-60
+36                android:resource="@xml/ussd_service" />
+36-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:25:17-53
+37        </service>
+38
+39        <activity
+39-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:28:9-37:40
+40            android:name="com.romellfudi.ussd.accessibility.view.MainActivity"
+40-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:29:13-60
+41            android:label="@string/app_name"
+41-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:30:13-45
+42            android:launchMode="singleTop"
+42-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:31:13-43
+43            android:theme="@style/AppTheme.NoActionBar"
+43-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:32:13-56
+44            android:windowSoftInputMode="stateAlwaysHidden" >
+44-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:33:13-60
+45            <intent-filter>
+45-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:34:13-37:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:35:17-69
+46-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:35:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:36:17-77
+48-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:36:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <service
+52-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:39:9-41:40
+53            android:name="com.romellfudi.ussdlibrary.OverlayShowingService"
+53-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:40:13-76
+54            android:exported="false" />
+54-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:41:13-37
+55        <service
+55-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:43:9-45:40
+56            android:name="com.romellfudi.ussdlibrary.SplashLoadingService"
+56-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:44:13-75
+57            android:exported="false" />
+57-->D:\AndroidStudioProjects\VoIpUSSD-master\app-kotlin\src\main\AndroidManifest.xml:45:13-37
+58
+59        <activity android:name="com.rbddevs.splashy.SplashyActivity" /> <!-- The activity will be merged into the manifest of the hosting app. -->
+59-->[com.rbddevs.splashy:splashy:1.2.0] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\46be732f1fc8bbffe70e08c7b97db722\jetified-splashy-1.2.0\AndroidManifest.xml:12:9-72
+59-->[com.rbddevs.splashy:splashy:1.2.0] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\46be732f1fc8bbffe70e08c7b97db722\jetified-splashy-1.2.0\AndroidManifest.xml:12:19-69
+60        <activity
+60-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:8:5-271
+61            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+61-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:8:15-102
+62            android:enabled="false"
+62-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:8:103-126
+63            android:exported="false"
+63-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:8:127-151
+64            android:launchMode="singleInstance"
+64-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:8:204-239
+65            android:process=":playcore_missing_splits_activity"
+65-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:8:152-203
+66            android:stateNotNeeded="true" />
+66-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:8:240-269
+67        <activity
+67-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:9:5-278
+68            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+68-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:9:15-95
+69            android:enabled="false"
+69-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:9:96-119
+70            android:exported="false"
+70-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:9:120-144
+71            android:process=":playcore_dialog_wrapper_activity"
+71-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:9:175-226
+72            android:stateNotNeeded="true"
+72-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:9:145-174
+73            android:theme="@style/Theme.PlayCore.Transparent" />
+73-->[com.google.android.play:core:1.6.4] C:\Users\mohsin.javed\.gradle\caches\transforms-2\files-2.1\f135bc3ea18cc9350ac8c0e60df94083\core-1.6.4\AndroidManifest.xml:9:227-276
+74    </application>
+75
+76</manifest>

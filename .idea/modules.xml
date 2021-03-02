@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VoIpUSSD-master.iml" filepath="$PROJECT_DIR$/.idea/modules/VoIpUSSD-master.iml" group="VoIpUSSD-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="VoIpUSSD-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-kotlin/app-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/app-kotlin/app-kotlin.iml" group="VoIpUSSD-master/app-kotlin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ussd-library/ussd-library.iml" filepath="$PROJECT_DIR$/.idea/modules/ussd-library/ussd-library.iml" group="VoIpUSSD-master/ussd-library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ussd-library-kotlin/ussd-library-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/ussd-library-kotlin/ussd-library-kotlin.iml" group="VoIpUSSD-master/ussd-library-kotlin" />
+    </modules>
+  </component>
+</project>

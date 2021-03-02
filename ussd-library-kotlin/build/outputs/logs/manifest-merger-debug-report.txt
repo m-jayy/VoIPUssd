@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:4:5-41
+		INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:2:1-12:12
+		INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:2:1-12:12
+		INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:6:5-10:19
+	android:label
+		ADDED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml:7:9-35
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\VoIpUSSD-master\ussd-library-kotlin\src\main\AndroidManifest.xml
